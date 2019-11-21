@@ -10,5 +10,5 @@ int main() {
 void computeFactorial(std::istream &in, std::ostream &out) {
     unsigned long long n;
     in >> n;
-    out << factorial(n);
+    out << factorial(n) << std::endl;
 }
